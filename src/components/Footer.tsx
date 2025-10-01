@@ -18,7 +18,7 @@ const Footer = () => {
                 height={30}
 								className='border border-gray-300 rounded-sm'
 							/>
-							<span className='text-2xl font-bold'>Venille</span>
+							<span className='text-2xl font-bold font-brand'>Venille</span>
 						</div>
 						<p className='text-background/70 text-sm'>
 							Sustainable beauty that's kind to your skin and the

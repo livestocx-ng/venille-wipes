@@ -11,9 +11,14 @@ const Navigation = () => {
 					<div className='flex items-center space-x-2'>
 						<div className='w-8 h-8 rounded-lg bg-primary flex items-center justify-center'>
 							{/* <Leaf className='w-4 h-4 text-primary-foreground' /> */}
-							<img src={Logo} className='border border-gray-300 rounded-sm'/>
+							<img
+								src={Logo}
+								className='border border-gray-300 rounded-sm'
+							/>
 						</div>
-						<span className='text-xl font-bold'>Venille</span>
+						<span className='text-2xl md:text-2xl font-brand font-bold leading-none'>
+							Venille
+						</span>
 					</div>
 
 					<div className='hidden md:flex items-center space-x-8'>
